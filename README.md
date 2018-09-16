@@ -14,6 +14,9 @@ is based on java image
 wildfly 14 ist installed here
 
 
-copy this files after pull:
+#copy this files after pull:
 java/openjdk_11.tar.gz
+http://jdk.java.net/11/
+
 jboss/wildfly-14.0.1.Final.tar.gz
+http://wildfly.org/downloads/
