@@ -12,3 +12,8 @@ added openjdk java
 jboss:
 is based on java image
 wildfly 14 ist installed here
+
+
+copy this files after pull:
+java/openjdk_11.tar.gz
+jboss/wildfly-14.0.1.Final.tar.gz
