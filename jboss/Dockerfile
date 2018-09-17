@@ -21,6 +21,10 @@ RUN \
     /opt/jboss/wildfly/14/bin/add-user.sh admin geheim --silent
     
 EXPOSE 8080 8090
+
+ENV LAUNCH_JBOSS_IN_BACKGROUND true
 		
 USER jboss
+
+#CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0"]
 
